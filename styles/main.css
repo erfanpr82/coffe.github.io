@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "style";
+    src: url(../fontt/fr13631857_Blacksword.otf) format(woff);
+}
+@font-face {
+    font-family: "popins";
+    src: url(../fontt/Poppins/PoppinsLatin-Light.otf);
+}
+@font-face {
+    font-family: "yekan";
+    src: url(../fontt/OTF/YekanBakh-Black.otf);
+}
+@font-face {
+    font-family: "yekan1";
+    src: url(../fontt/TTF/YekanBakh-Light.ttf);
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 198, 175);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cofe_style{
+ 
+    background-image: url(../image/iPhone\ 13\ Pro\ Max\ -\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 826px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.text_place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.header-text{
+    font-family: "style";
+    color: white;
+    font-size: 50px;
+}
+.litel-text{
+    color: white;
+    font-size: 20px;
+    font-family: "popins";
+}
+
+.items_place{
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+    font-family: "yekan";
+    display: flex;
+    justify-content: start;
+    font-size: 22px;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+}
+.items_pizza{
+    width:70%;
+    /* margin-top: 20px; */
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+    border:  solid white 1px;
+    transition: all 0.3s;
+}
+#test{
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    font-family: "yekan";
+    display: flex;
+    justify-content: start;
+    font-size: 22px;
+    align-items: center;
+    margin-top: 22px;
+    color: white;
+}
+
+.items_pizza:hover{
+    background-color: white;
+    color: black;
+}
+
+.mt_top{
+    position: relative;
+    top: 20px;
+}
+.bc-ch{
+    background-image: url(../image/brake-fest.png);
+}
+.items_food{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.items_food_place{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+}
+.price{
+    position: relative;
+    /* right: 230px; */
+    font-family: "yekan1";
+}
+h3{
+    font-family: "yekan";
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+h4{
+    font-size: small;
+    font-family: "yekan1";
+}
+.text-cat{
+    color: white;
+    font-family: "yekan";
+    font-size: 30px;
+}
+.paages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
